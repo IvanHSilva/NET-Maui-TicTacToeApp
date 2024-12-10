@@ -11,6 +11,17 @@
         </LinearGradientBrush>
     </ContentPage.Background>
 
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="Transparent" />
+            <Setter Property="CornerRadius" Value="15" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="FontSize" Value="80" />
+            <Setter Property="BorderWidth" Value="1" />
+            <Setter Property="BorderColor" Value="White" />
+        </Style>
+    </ContentPage.Resources>
+
     <Grid RowDefinitions="*,*,*,*"  ColumnDefinitions="*,*,*"
           RowSpacing="10" ColumnSpacing="10" Margin="5">
         <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" 
