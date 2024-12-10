@@ -4,10 +4,29 @@
              x:Class="TicTacToeApp.MainPage">
 
     <ContentPage.Background>
+
         <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
             <GradientStop Color="Green" Offset="0.3"/>
             <GradientStop Color="Yellow" Offset="1.1"/>
         </LinearGradientBrush>
     </ContentPage.Background>
 
- </ContentPage>
+    <Grid RowDefinitions="*,*,*,*"  ColumnDefinitions="*,*,*"
+          RowSpacing="10" ColumnSpacing="10" Margin="5">
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" 
+                   Text="Jogo da Velha"/>
+        
+        <Button Grid.Row="1" Grid.Column="0" />
+        <Button Grid.Row="1" Grid.Column="1" />
+        <Button Grid.Row="1" Grid.Column="2" />
+
+        <Button Grid.Row="2" Grid.Column="0" />
+        <Button Grid.Row="2" Grid.Column="1" />
+        <Button Grid.Row="2" Grid.Column="2" />
+
+        <Button Grid.Row="3" Grid.Column="0" />
+        <Button Grid.Row="3" Grid.Column="1" />
+        <Button Grid.Row="3" Grid.Column="2" />
+    </Grid>
+
+</ContentPage>
