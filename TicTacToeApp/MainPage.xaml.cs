@@ -22,7 +22,20 @@
 
             if(S1.Text == "X" && S2.Text == "X" && S3.Text == "X") {
                 DisplayAlert("Fim de Jogo!", $"{simbol} venceu!", "ok");
+                Reset();
             }
+        }
+
+        void Reset() {
+            S1.Text = "";
+            S2.Text = "";
+            S3.Text = "";
+            S4.Text = "";
+            S5.Text = "";
+            S6.Text = "";
+            S7.Text = "";
+            S8.Text = "";
+            S9.Text = "";
         }
     }
 }
