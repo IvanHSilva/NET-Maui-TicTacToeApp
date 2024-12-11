@@ -19,6 +19,10 @@
                 button.Text = "O";
                 simbol = "X";
             }
+
+            if(S1.Text == "X" && S2.Text == "X" && S3.Text == "X") {
+                DisplayAlert("Fim de Jogo!", $"{simbol} venceu!", "ok");
+            }
         }
     }
 }

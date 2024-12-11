@@ -27,17 +27,17 @@
         <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" 
                    Text="Jogo da Velha"/>
         
-        <Button Grid.Row="1" Grid.Column="0" Clicked="Button_Clicked"/>
-        <Button Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked"/>
-        <Button Grid.Row="1" Grid.Column="2" Clicked="Button_Clicked"/>
+        <Button x:Name="S1" Grid.Row="1" Grid.Column="0" Clicked="Button_Clicked"/>
+        <Button x:Name="S2" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked"/>
+        <Button x:Name="S3" Grid.Row="1" Grid.Column="2" Clicked="Button_Clicked"/>
 
-        <Button Grid.Row="2" Grid.Column="0" Clicked="Button_Clicked"/>
-        <Button Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked"/>
-        <Button Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked"/>
+        <Button x:Name="S4" Grid.Row="2" Grid.Column="0" Clicked="Button_Clicked"/>
+        <Button x:Name="S5" Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked"/>
+        <Button x:Name="S6" Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked"/>
 
-        <Button Grid.Row="3" Grid.Column="0" Clicked="Button_Clicked"/>
-        <Button Grid.Row="3" Grid.Column="1" Clicked="Button_Clicked"/>
-        <Button Grid.Row="3" Grid.Column="2" Clicked="Button_Clicked"/>
+        <Button x:Name="S7" Grid.Row="3" Grid.Column="0" Clicked="Button_Clicked"/>
+        <Button x:Name="S8" Grid.Row="3" Grid.Column="1" Clicked="Button_Clicked"/>
+        <Button x:Name="S9" Grid.Row="3" Grid.Column="2" Clicked="Button_Clicked"/>
     </Grid>
 
 </ContentPage>
